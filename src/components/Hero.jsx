@@ -13,7 +13,7 @@ const Hero = () => {
 
       <div className="relative max-w-7xl mx-auto px-6 w-full">
         <div className="max-w-3xl animate-fadeInUp">
-          <h1 className="text-5xl md:text-7xl font-extrabold mt-10 text-white leading-tight drop-shadow-xl tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-extrabold mt-20 text-white leading-tight drop-shadow-xl tracking-tight">
             Premium Dry Cleaning
             <br />
             & Laundry Services

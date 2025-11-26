@@ -7,6 +7,9 @@ import Testimonials from "./components/Testimonials";
 import Pricing from "./components/Pricing";
 import CTA from "./components/Cta";
 import Footer from "./components/Footer";
+import Location from "./components/Location";
+import Contact from "./components/ContactUs";
+import FAQs from "./components/FAQs";
 
 function App() {
   return (
@@ -18,6 +21,14 @@ function App() {
       <Process />
       <Testimonials />
       <Pricing />
+      <Location
+        shopName="RicherPalace Dry Cleaners"
+        address="15 Palace Road, Lagos, Nigeria"
+        latitude={6.601838} 
+        longitude={3.351486}
+      />
+      <Contact />
+      <FAQs />
       <CTA />
       <Footer />
     </div>

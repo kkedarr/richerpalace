@@ -11,7 +11,7 @@ const Process = () => {
     <section id="process" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-12">
           How It Works
         </h2>
 
