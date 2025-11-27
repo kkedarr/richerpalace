@@ -61,7 +61,7 @@ const Pricing = () => {
         <div className="bg-white rounded-2xl shadow-md p-10 overflow-x-auto">
           <h3 className="text-2xl font-semibold mb-6">Price List (Per Item)</h3>
 
-          <table className="w-full text-left border-collapse">
+          <table className="w-full text-sm text-left border-collapse">
             <thead>
               <tr className="border-b text-gray-600">
                 <th className="pb-3">Item</th>
