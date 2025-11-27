@@ -44,7 +44,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-gray-50">
+    <section id="contact" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-14 tracking-tight">
           Contact Us
@@ -52,7 +52,7 @@ const ContactSection = () => {
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* LEFT SIDE */}
-          <div className="bg-white shadow-sm hover:shadow-xl border border-gray-100 transition rounded-2xl p-10">
+          <div className="bg-blue-50 shadow-sm hover:shadow-xl border border-gray-100 transition rounded-2xl p-10">
             <h3 className="text-2xl font-semibold">Get in Touch</h3>
             <p className="text-gray-600 mt-2 leading-relaxed">
               We're here to help with any questions about our services.
@@ -92,7 +92,7 @@ const ContactSection = () => {
           </div>
 
           {/* RIGHT SIDE (FORM) */}
-          <div className="bg-white shadow-sm hover:shadow-xl border border-gray-100 transition rounded-2xl p-10">
+          <div className="bg-blue-50 shadow-sm hover:shadow-xl border border-gray-100 transition rounded-2xl p-10">
             <h3 className="text-2xl font-semibold">Send Us a Message</h3>
             <p className="text-gray-600 mt-2 leading-relaxed">
               Fill out the form and our team will reach out shortly.

@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Location from "./components/Location";
 import Contact from "./components/ContactUs";
 import FAQs from "./components/FAQs";
+import About from "./components/About";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         latitude={6.601838} 
         longitude={3.351486}
       />
+      <About />
       <Contact />
       <FAQs />
       <CTA />
